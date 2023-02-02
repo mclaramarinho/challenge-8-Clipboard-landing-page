@@ -1,0 +1,302 @@
+body {
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 18px;
+}
+
+h1, h2, h4, .btn {
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1.2rem;
+}
+
+.feat-desc, .prod-text {
+  font-size: 1.1rem;
+}
+
+.feat-desc {
+  line-height: 1.9;
+  word-spacing: 2px;
+}
+
+.btn {
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 0px 5px 30px -1px rgba(128, 128, 128, 0.322);
+}
+
+.button-ios {
+  background-color: hsl(171deg, 66%, 44%);
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  border-bottom: 3px solid hsl(171deg, 68%, 36%);
+}
+
+.button-mac {
+  background-color: hsl(233deg, 100%, 69%);
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  border-bottom: 3px solid hsl(233deg, 57%, 55%);
+}
+
+.btn:hover {
+  color: white;
+  opacity: 70%;
+}
+
+.button-ios:hover {
+  background-color: hsl(171deg, 66%, 44%);
+}
+
+.button-mac:hover {
+  background-color: hsl(233deg, 100%, 69%);
+}
+
+.fa-brands {
+  color: hsl(210deg, 10%, 33%);
+}
+
+.fa-brands:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+
+a {
+  color: hsl(210deg, 10%, 33%);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.footer-buttons p {
+  color: hsl(210deg, 10%, 33%);
+}
+
+@media (max-width: 1250px) {
+  #big-companies-lg-devices {
+    display: none;
+  }
+  #big-companies-slide {
+    margin: 20% auto;
+  }
+}
+@media (min-width: 1251px) {
+  #big-companies-md-sm-devices {
+    display: none;
+  }
+  #big-companies-lg-devices {
+    width: 80%;
+    margin: 10% auto 10%;
+  }
+  .col-lg-2 {
+    width: 20%;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-image: url("https://i.postimg.cc/NGRwdrTm/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #header-container, .keep-track, .access-anywhere-text, .download-container {
+    width: 40%;
+  }
+  #header {
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  #header-container {
+    margin: 5% auto 2% auto;
+  }
+  .btn-col1 {
+    text-align: right;
+  }
+  .btn-col2, .feat-container, .footer-buttons p {
+    text-align: left;
+  }
+  #features-sumup .row {
+    margin-top: 5%;
+  }
+  .computer-image {
+    width: 100%;
+    margin-left: -5%;
+  }
+  .keep-track {
+    margin: 0 auto;
+  }
+  .feat-container {
+    margin: 5% 0 15% 5%;
+  }
+  .feat-title {
+    margin-bottom: 1%;
+  }
+  .feat2, .feat3 {
+    margin-top: 15%;
+  }
+  #access-anywhere {
+    margin-top: 5%;
+    clear: both;
+  }
+  .access-anywhere-text {
+    margin: 0 auto 5%;
+  }
+  .devices-pic {
+    margin-bottom: 5%;
+    max-width: 100%;
+  }
+  .productivity-text {
+    margin-bottom: 5%;
+  }
+  .productivity-items {
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-right: 0;
+  }
+  .col-lg-3 {
+    width: 21%;
+  }
+  .column {
+    margin-left: 3%;
+  }
+  .prod-img {
+    margin-bottom: 10%;
+    width: 40px;
+  }
+  .cmp-logo {
+    margin-left: 11%;
+  }
+  .download-container {
+    margin: 0 auto 2%;
+  }
+  #footer-sm-devices {
+    display: none;
+  }
+  #footer-lg-devices {
+    margin-top: 5%;
+    background-color: hsla(202deg, 11%, 66%, 0.226);
+    padding: 3% 0% 2%;
+  }
+  .footer-row {
+    margin-right: 0px;
+  }
+  .footer-img {
+    width: 15%;
+  }
+  .fa-brands {
+    font-size: 36px;
+    margin: 4% 0;
+  }
+  .fa-square-facebook {
+    margin-right: 5%;
+  }
+  .fa-instagram {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 991px) {
+  h2 {
+    font-size: 2rem;
+  }
+  body {
+    background-image: url("https://i.postimg.cc/28wNDR05/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #header {
+    padding: 5%;
+  }
+  .logo-header {
+    margin-top: 20%;
+  }
+  #header-container {
+    width: 95%;
+    margin: 15% auto 2%;
+  }
+  .button-ios, .button-mac {
+    padding: 15px 30px;
+    width: 90%;
+    font-size: 1.1rem;
+  }
+  .btn-col1, .btn-col2 {
+    margin-top: 8%;
+  }
+  #features-sumup, .computer-image, #access-anywhere, .download-container, .productivity-text {
+    width: 75%;
+  }
+  #features-sumup {
+    margin: 20% auto 0;
+  }
+  .computer-image {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .feat-container {
+    width: 70%;
+    margin: 10% auto 20%;
+  }
+  .feat-title {
+    margin-bottom: 1%;
+  }
+  .feat2, .feat3 {
+    margin-top: 10%;
+  }
+  #access-anywhere, .productivity-items, .download-container {
+    margin: 0 auto;
+  }
+  .devices-pic {
+    margin: 10% 0 20%;
+    width: 100%;
+  }
+  .productivity-text {
+    margin: 0 auto 20%;
+  }
+  .productivity-items {
+    width: 80%;
+  }
+  .column {
+    margin-top: 15%;
+  }
+  .prod-img {
+    margin-bottom: 15%;
+  }
+  #download-now {
+    margin-bottom: 20%;
+  }
+  .row {
+    --bs-gutter-x:0;
+  }
+  #footer-lg-devices {
+    display: none;
+  }
+  #footer-sm-devices {
+    background-color: hsla(202deg, 11%, 66%, 0.226);
+    padding: 3% 0% 2%;
+  }
+  .footer-img {
+    width: 10%;
+    margin: 10% auto;
+  }
+  .footerLink {
+    margin-top: 5%;
+  }
+  .fa-brands {
+    font-size: 30px;
+    margin: 10% auto;
+  }
+  .fa-square-facebook {
+    margin-right: 10%;
+  }
+  .fa-instagram {
+    margin-left: 10%;
+  }
+}/*# sourceMappingURL=main copy.css.map */

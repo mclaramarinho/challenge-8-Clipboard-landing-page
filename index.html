@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/c87f40724e.js" crossorigin="anonymous"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <!-- LOCAL STYLESHEET -->
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+  <!-- ***************************************************************************** -->
+
+<body>
+
+  <section id="header">
+
+    <div>
+      <img src="images/logo.svg" class="logo-header" alt="">
+    </div>
+
+    <div id="header-container">    
+        <h1>A history of everything you copy</h1>
+        <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+    </div>
+
+    <div class="row button-container">
+      <div class="col-lg-6 btn-col1">
+        <button class="btn button-ios">Download for iOS</button>
+      </div>
+      <div class="col-lg-6 btn-col2">
+        <button class="btn button-mac">Download for Mac</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***************************************************************************** -->
+
+  <section id="features-sumup">
+    <div class="keep-track">
+      <h2>Keep track of your snippets</h2>
+      <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/image-computer.png" alt="" class="computer-image">
+      </div>
+      <div class="col-lg-3 feat-container">
+        <div class="row ">
+          <h4 class="feat-title">Quick Search</h4>
+          <p class="feat-desc">Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+        <div class="row feat2">
+          <h4 class="feat-title">iCloud Sync</h4>
+          <p class="feat-desc">Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div class="row feat3">
+          <h4 class="feat-title">Complete History</h4>
+          <p class="feat-desc">Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
+    </div>    
+  </section>
+  
+  <!-- ***************************************************************************** -->
+
+  <section id="access-anywhere">
+    <div class="access-anywhere-text">
+      <h2>Access Clipboard anywhere</h2>
+      <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+    </div>
+    <img src="images/image-devices.png" alt="" class="devices-pic">
+  </section>
+
+  <!-- ***************************************************************************** -->
+
+  <section id="productivity">
+    <div class="productivity-text">      
+      <h2>Supercharge your workflow</h2>
+      <p>We’ve got the tools to boost your productivity.</p>
+    </div>
+
+    <div class="row productivity-items">
+      <div class="col-lg-3">
+        <img class="prod-img" src="images/icon-blacklist.svg" alt="">
+        <h4>Create blacklists</h4>
+        <p class="prod-text">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </div>
+      <div class="col-lg-3 column">
+        <img class="prod-img" src="images/icon-text.svg" alt="">
+        <h4>Plain text snippets</h4>
+        <p class="prod-text">Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      <div class="col-lg-3 column">
+        <img class="prod-img" src="images/icon-preview.svg" alt="">
+        <h4>Sneak preview</h4>
+        <p class="prod-text">Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***************************************************************************** -->
+
+  <section id="big-companies-lg-devices" class="row">
+
+
+      <span class="col-lg-2"><img src="images/logo-google.png" alt=""></span>
+      <span class="col-lg-2"><img class="cmp-logo" src="images/logo-ibm.png" alt=""></span>
+      <span class="col-lg-2"><img class="cmp-logo" src="images/logo-microsoft.png" alt=""></span>
+      <span class="col-lg-2"><img class="cmp-logo" src="images/logo-hp.png" alt=""></span>
+      <span class="col-lg-2"><img class="cmp-logo" src="images/logo-vector-graphics.png" alt=""></span>
+    
+  </section>
+
+  <!-- ***************************************************************************** -->
+  
+  <section id="big-companies-md-sm-devices">
+
+    <div id="big-companies-slide" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/logo-google.png"  alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/logo-ibm.png"  alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/logo-microsoft.png"  alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img  src="images/logo-hp.png" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/logo-vector-graphics.png"  alt="">
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#big-companies-slide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#big-companies-slide" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ***************************************************************************** -->
+
+  <section id="download-now">
+    <div class="download-container">
+      <h2>Clipboard for iOS and Mac OS</h2>
+      <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+    </div>
+
+    <div class="row button-container">
+      <div class="col-lg-6 btn-col1">
+        <button class="btn button-ios">Download for iOS</button>
+      </div>
+      <div class="col-lg-6 btn-col2">
+        <button class="btn button-mac">Download for Mac</button>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- ***************************************************************************** -->
+
+  <section id="footer-lg-devices">
+    <div class="row footer-row image">
+      <div class="col-lg-3 footer-col1">
+        <img src="images/logo.svg" alt="" class="footer-img">
+      </div>
+      
+      <div class="col-lg-5 footer-col2">
+        <div class="row footer-buttons fb1">
+          <div class="col-lg-4">
+            <a href="#"><p>FAQs</p></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><p>Privacy Policy</p></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><p>Install Guide</p></a>
+          </div>
+        </div>
+
+        <div class="row footer-buttons fb2">
+          <div class="col-lg-4">
+            <a href="#"><p>Contact Us</p></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><p>Press Kit</p></a>
+          </div>
+          <div class="col-lg-4">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 footer-col3">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ***************************************************************************** -->
+
+  <section id="footer-sm-devices">
+    <div class="footer">
+      <div class="row row1">
+        <img src="images/logo.svg" alt="" class="footer-img">
+      </div>
+
+    <div class="row">
+      <div class="row footer-buttons">
+          <a href="#">FAQs</a>
+      </div>
+      <div class="row footerLink">
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="row footerLink">
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="row footerLink">
+        <a href="#">Press Kit</a>
+      </div>
+      <div class="row footerLink">
+        <a href="#">Install Guide</a>
+      </div>
+    </div>
+  
+      <div class="col-lg-4 footer-col3">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    </div>
+
+    
+
+  </section>
+
+  
+  
+  
+</body>
+</html>
